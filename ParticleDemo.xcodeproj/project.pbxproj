@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229772561B54D16500C305E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 229772551B54D16500C305E9 /* main.m */; };
+		229772591B54D16500C305E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 229772581B54D16500C305E9 /* AppDelegate.m */; };
+		2297725C1B54D16500C305E9 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2297725B1B54D16500C305E9 /* GameScene.m */; };
+		2297725E1B54D16500C305E9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2297725D1B54D16500C305E9 /* GameScene.sks */; };
+		229772611B54D16500C305E9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229772601B54D16500C305E9 /* GameViewController.m */; };
+		229772641B54D16500C305E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229772621B54D16500C305E9 /* Main.storyboard */; };
+		229772661B54D16500C305E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229772651B54D16500C305E9 /* Images.xcassets */; };
+		229772691B54D16500C305E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229772671B54D16500C305E9 /* LaunchScreen.xib */; };
+		229772751B54D16500C305E9 /* ParticleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229772741B54D16500C305E9 /* ParticleDemoTests.m */; };
+		229772801B54D18E00C305E9 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2297727E1B54D18E00C305E9 /* Bokeh.sks */; };
+		229772811B54D18E00C305E9 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 2297727F1B54D18E00C305E9 /* bokeh.png */; };
+		229772841B54D6E200C305E9 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 229772821B54D6E200C305E9 /* Fire.sks */; };
+		229772851B54D6E200C305E9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 229772831B54D6E200C305E9 /* spark.png */; };
+		229772871B54D79900C305E9 /* FireFlies.sks in Resources */ = {isa = PBXBuildFile; fileRef = 229772861B54D79900C305E9 /* FireFlies.sks */; };
+		229772891B54D7E900C305E9 /* Magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = 229772881B54D7E900C305E9 /* Magic.sks */; };
+		2297728B1B54D85400C305E9 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2297728A1B54D85400C305E9 /* Rain.sks */; };
+		2297728D1B54D8AB00C305E9 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2297728C1B54D8AB00C305E9 /* Smoke.sks */; };
+		2297728F1B54D91100C305E9 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2297728E1B54D91100C305E9 /* Snow.sks */; };
+		229772911B54D96100C305E9 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 229772901B54D96100C305E9 /* Spark.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2297726F1B54D16500C305E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229772481B54D16500C305E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2297724F1B54D16500C305E9;
+			remoteInfo = ParticleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229772501B54D16500C305E9 /* ParticleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229772541B54D16500C305E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229772551B54D16500C305E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		229772571B54D16500C305E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		229772581B54D16500C305E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2297725A1B54D16500C305E9 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		2297725B1B54D16500C305E9 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		2297725D1B54D16500C305E9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2297725F1B54D16500C305E9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		229772601B54D16500C305E9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		229772631B54D16500C305E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229772651B54D16500C305E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		229772681B54D16500C305E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2297726E1B54D16500C305E9 /* ParticleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229772731B54D16500C305E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229772741B54D16500C305E9 /* ParticleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleDemoTests.m; sourceTree = "<group>"; };
+		2297727E1B54D18E00C305E9 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = ../Bokeh.sks; sourceTree = "<group>"; };
+		2297727F1B54D18E00C305E9 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = ../bokeh.png; sourceTree = "<group>"; };
+		229772821B54D6E200C305E9 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		229772831B54D6E200C305E9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		229772861B54D79900C305E9 /* FireFlies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireFlies.sks; sourceTree = "<group>"; };
+		229772881B54D7E900C305E9 /* Magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Magic.sks; sourceTree = "<group>"; };
+		2297728A1B54D85400C305E9 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		2297728C1B54D8AB00C305E9 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		2297728E1B54D91100C305E9 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		229772901B54D96100C305E9 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2297724D1B54D16500C305E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2297726B1B54D16500C305E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229772471B54D16500C305E9 = {
+			isa = PBXGroup;
+			children = (
+				229772521B54D16500C305E9 /* ParticleDemo */,
+				229772711B54D16500C305E9 /* ParticleDemoTests */,
+				229772511B54D16500C305E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229772511B54D16500C305E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229772501B54D16500C305E9 /* ParticleDemo.app */,
+				2297726E1B54D16500C305E9 /* ParticleDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229772521B54D16500C305E9 /* ParticleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2297727E1B54D18E00C305E9 /* Bokeh.sks */,
+				229772861B54D79900C305E9 /* FireFlies.sks */,
+				229772881B54D7E900C305E9 /* Magic.sks */,
+				2297728A1B54D85400C305E9 /* Rain.sks */,
+				2297728C1B54D8AB00C305E9 /* Smoke.sks */,
+				2297728E1B54D91100C305E9 /* Snow.sks */,
+				229772901B54D96100C305E9 /* Spark.sks */,
+				229772821B54D6E200C305E9 /* Fire.sks */,
+				2297727F1B54D18E00C305E9 /* bokeh.png */,
+				229772831B54D6E200C305E9 /* spark.png */,
+				229772571B54D16500C305E9 /* AppDelegate.h */,
+				229772581B54D16500C305E9 /* AppDelegate.m */,
+				2297725A1B54D16500C305E9 /* GameScene.h */,
+				2297725B1B54D16500C305E9 /* GameScene.m */,
+				2297725D1B54D16500C305E9 /* GameScene.sks */,
+				2297725F1B54D16500C305E9 /* GameViewController.h */,
+				229772601B54D16500C305E9 /* GameViewController.m */,
+				229772621B54D16500C305E9 /* Main.storyboard */,
+				229772651B54D16500C305E9 /* Images.xcassets */,
+				229772671B54D16500C305E9 /* LaunchScreen.xib */,
+				229772531B54D16500C305E9 /* Supporting Files */,
+			);
+			path = ParticleDemo;
+			sourceTree = "<group>";
+		};
+		229772531B54D16500C305E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229772541B54D16500C305E9 /* Info.plist */,
+				229772551B54D16500C305E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229772711B54D16500C305E9 /* ParticleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				229772741B54D16500C305E9 /* ParticleDemoTests.m */,
+				229772721B54D16500C305E9 /* Supporting Files */,
+			);
+			path = ParticleDemoTests;
+			sourceTree = "<group>";
+		};
+		229772721B54D16500C305E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229772731B54D16500C305E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2297724F1B54D16500C305E9 /* ParticleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229772781B54D16500C305E9 /* Build configuration list for PBXNativeTarget "ParticleDemo" */;
+			buildPhases = (
+				2297724C1B54D16500C305E9 /* Sources */,
+				2297724D1B54D16500C305E9 /* Frameworks */,
+				2297724E1B54D16500C305E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleDemo;
+			productName = ParticleDemo;
+			productReference = 229772501B54D16500C305E9 /* ParticleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2297726D1B54D16500C305E9 /* ParticleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2297727B1B54D16500C305E9 /* Build configuration list for PBXNativeTarget "ParticleDemoTests" */;
+			buildPhases = (
+				2297726A1B54D16500C305E9 /* Sources */,
+				2297726B1B54D16500C305E9 /* Frameworks */,
+				2297726C1B54D16500C305E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229772701B54D16500C305E9 /* PBXTargetDependency */,
+			);
+			name = ParticleDemoTests;
+			productName = ParticleDemoTests;
+			productReference = 2297726E1B54D16500C305E9 /* ParticleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229772481B54D16500C305E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "David Rynn";
+				TargetAttributes = {
+					2297724F1B54D16500C305E9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2297726D1B54D16500C305E9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2297724F1B54D16500C305E9;
+					};
+				};
+			};
+			buildConfigurationList = 2297724B1B54D16500C305E9 /* Build configuration list for PBXProject "ParticleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229772471B54D16500C305E9;
+			productRefGroup = 229772511B54D16500C305E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2297724F1B54D16500C305E9 /* ParticleDemo */,
+				2297726D1B54D16500C305E9 /* ParticleDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2297724E1B54D16500C305E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229772871B54D79900C305E9 /* FireFlies.sks in Resources */,
+				2297728B1B54D85400C305E9 /* Rain.sks in Resources */,
+				2297728F1B54D91100C305E9 /* Snow.sks in Resources */,
+				229772911B54D96100C305E9 /* Spark.sks in Resources */,
+				229772841B54D6E200C305E9 /* Fire.sks in Resources */,
+				229772691B54D16500C305E9 /* LaunchScreen.xib in Resources */,
+				229772801B54D18E00C305E9 /* Bokeh.sks in Resources */,
+				229772661B54D16500C305E9 /* Images.xcassets in Resources */,
+				2297725E1B54D16500C305E9 /* GameScene.sks in Resources */,
+				229772851B54D6E200C305E9 /* spark.png in Resources */,
+				229772641B54D16500C305E9 /* Main.storyboard in Resources */,
+				229772811B54D18E00C305E9 /* bokeh.png in Resources */,
+				229772891B54D7E900C305E9 /* Magic.sks in Resources */,
+				2297728D1B54D8AB00C305E9 /* Smoke.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2297726C1B54D16500C305E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2297724C1B54D16500C305E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229772611B54D16500C305E9 /* GameViewController.m in Sources */,
+				229772591B54D16500C305E9 /* AppDelegate.m in Sources */,
+				2297725C1B54D16500C305E9 /* GameScene.m in Sources */,
+				229772561B54D16500C305E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2297726A1B54D16500C305E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229772751B54D16500C305E9 /* ParticleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229772701B54D16500C305E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2297724F1B54D16500C305E9 /* ParticleDemo */;
+			targetProxy = 2297726F1B54D16500C305E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229772621B54D16500C305E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229772631B54D16500C305E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229772671B54D16500C305E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229772681B54D16500C305E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229772761B54D16500C305E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229772771B54D16500C305E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229772791B54D16500C305E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2297727A1B54D16500C305E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2297727C1B54D16500C305E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleDemo.app/ParticleDemo";
+			};
+			name = Debug;
+		};
+		2297727D1B54D16500C305E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleDemo.app/ParticleDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2297724B1B54D16500C305E9 /* Build configuration list for PBXProject "ParticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229772761B54D16500C305E9 /* Debug */,
+				229772771B54D16500C305E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229772781B54D16500C305E9 /* Build configuration list for PBXNativeTarget "ParticleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229772791B54D16500C305E9 /* Debug */,
+				2297727A1B54D16500C305E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2297727B1B54D16500C305E9 /* Build configuration list for PBXNativeTarget "ParticleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2297727C1B54D16500C305E9 /* Debug */,
+				2297727D1B54D16500C305E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229772481B54D16500C305E9 /* Project object */;
+}
